@@ -34,7 +34,7 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: filtered arxiv submissions
-          to: m.serraperalta@tudelft.nl
+          to: marc.serra-peralta@riverlane.com
           from: Marc Serra Peralta
           html_body: file://formatted_email.html
           ignore_cert: true
